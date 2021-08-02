@@ -9,9 +9,9 @@ import UIKit
 
 public class HomeViewModel {
     public var adapter: HomeAdapter?
-    private var scrollNavigationViewHeight: CGFloat = 0
+    public var scrollNavigationViewHeight: CGFloat = 0
     /// 記錄目前抓到第幾頁了 如為-1代表無下一頁或正在Loading，就不要抓了
-    private var apiPage: Int = 1
+    public var apiPage: Int = 1
     public struct UpdateUIForScrollValues {
         let scrollNavigationViewHeight: CGFloat
         let scrollNavigationViewTopViewAlpha: CGFloat
@@ -29,7 +29,7 @@ public class HomeViewModel {
         getAPIData(pageNum: apiPage)
     }
     
-    private func setupAdapter(tableView: UITableView) {
+    public func setupAdapter(tableView: UITableView) {
         adapter = HomeAdapter(tableView)
         tableView.delegate = adapter
         tableView.dataSource = adapter
@@ -42,7 +42,7 @@ public class HomeViewModel {
     }
     
     /// 抓API
-    private func getAPIData(pageNum: Int) {
+    public func getAPIData(pageNum: Int) {
         // 如為-1代表無下一頁或正在Loading，就不要抓了
         guard apiPage > 0 else { return }
         // 正要抓下一頁，把apiPage設成 -1 表示在Loading 防止同一頁重複抓取等問題
@@ -73,7 +73,7 @@ public class HomeViewModel {
     }
     
     /// 判別Api抓取後有無下一頁
-    private func whenApiReportCheckApiPage(
+    public func whenApiReportCheckApiPage(
         success: Bool,
         pageNum:Int,
         newDataCount: Int?
@@ -89,7 +89,7 @@ public class HomeViewModel {
         }
     }
     
-    private func getSimpleStackRowModel(
+    public func getSimpleStackRowModel(
         models: [ZooPlantModel]
     ) -> [SimpleStackRowModel] {
         // 先給舊有的model再添加新的model(目前這頁只用到一個section所以用first，若有改這邊也要改)
@@ -130,7 +130,7 @@ public class HomeViewModel {
         return rowModels
     }
     
-    private func creatSimpleView(data: SimpleTitleDataModel) -> UIView {
+    public func creatSimpleView(data: SimpleTitleDataModel) -> UIView {
         let view = UINib(
             nibName: String(describing: SimpleTitleDataView.self),
             bundle: nil
@@ -145,7 +145,7 @@ public class HomeViewModel {
 }
 
 extension HomeViewModel: ScrollTableViewDelegate {
-    private class CheckHeights {
+    public class CheckHeights {
         /// 為傳入height的 1 / 3
         public var min: CGFloat
         /// 為傳入height的 1 / 3 * 2 (= / 1.5)

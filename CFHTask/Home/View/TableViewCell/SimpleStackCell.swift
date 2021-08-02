@@ -40,11 +40,11 @@ public class SimpleStackRowModel: HomeRowModel {
 }
 
 class SimpleStackCell: UITableViewCell {
-    @IBOutlet private weak var withTopDistance: NSLayoutConstraint!
-    @IBOutlet private weak var withRightDistance: NSLayoutConstraint!
-    @IBOutlet private weak var withBottomDistance: NSLayoutConstraint!
-    @IBOutlet private weak var withLeftDistance: NSLayoutConstraint!
-    @IBOutlet private weak var stackView: UIStackView!
+    @IBOutlet public weak var withTopDistance: NSLayoutConstraint!
+    @IBOutlet public weak var withRightDistance: NSLayoutConstraint!
+    @IBOutlet public weak var withBottomDistance: NSLayoutConstraint!
+    @IBOutlet public weak var withLeftDistance: NSLayoutConstraint!
+    @IBOutlet public weak var stackView: UIStackView!
 }
 
 extension SimpleStackCell: ICellViewBase {

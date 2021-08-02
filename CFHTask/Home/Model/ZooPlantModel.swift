@@ -51,6 +51,13 @@ public struct ZooPlantModel: Codable {
         case picUrl = "F_Pic01_URL"
     }
     
+    public init() {
+        name = ""
+        location = ""
+        feature = ""
+        picUrl = ""
+    }
+    
     private init(form decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         name = (try? values.decodeIfPresent(

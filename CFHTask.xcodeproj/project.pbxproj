@@ -12,6 +12,13 @@
 		9807C8B226B136E90013376F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9807C8B026B136E90013376F /* LaunchScreen.storyboard */; };
 		9807C8D426B1485A0013376F /* ApiServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9807C8D326B1485A0013376F /* ApiServer.swift */; };
 		9854D61726B39ABC0093B552 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9854D61626B39ABC0093B552 /* HomeViewModel.swift */; };
+		9872EF6826B76E5C006E8A98 /* ScrollNavigationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EF6726B76E5C006E8A98 /* ScrollNavigationViewTests.swift */; };
+		9872EF7426B77DC2006E8A98 /* SimpleTitleDataViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EF7326B77DC2006E8A98 /* SimpleTitleDataViewTests.swift */; };
+		9872EF7826B782FC006E8A98 /* SimpleStackCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EF7726B782FC006E8A98 /* SimpleStackCellTests.swift */; };
+		9872EF7C26B787E9006E8A98 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EF7B26B787E9006E8A98 /* HomeViewModelTests.swift */; };
+		98774B0426B6F042003763D1 /* CFHTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98774B0326B6F042003763D1 /* CFHTaskTests.swift */; };
+		98774B0E26B6F0BF003763D1 /* ZooPlantModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98774B0D26B6F0BF003763D1 /* ZooPlantModelTests.swift */; };
+		98774B1626B6FF05003763D1 /* ApiServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98774B1526B6FF05003763D1 /* ApiServerTests.swift */; };
 		9890AB5B26B2883C00A13DEB /* ScrollNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9890AB5A26B2883C00A13DEB /* ScrollNavigationView.swift */; };
 		989144D626B6DEB20055258A /* StackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989144D126B6DEB20055258A /* StackView+Extension.swift */; };
 		989144D726B6DEB20055258A /* TableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989144D226B6DEB20055258A /* TableViewCell+Extension.swift */; };
@@ -32,6 +39,16 @@
 		A784E9100A31A515AC2D2C0E /* Pods_CFHTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D4F3E39114B5C27428025A /* Pods_CFHTask.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		98774B0626B6F042003763D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9807C89A26B136E80013376F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9807C8A126B136E80013376F;
+			remoteInfo = CFHTask;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		47D4F3E39114B5C27428025A /* Pods_CFHTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFHTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B66037FE8CB62CFAB674DAF /* Pods-CFHTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFHTask.debug.xcconfig"; path = "Target Support Files/Pods-CFHTask/Pods-CFHTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -42,6 +59,15 @@
 		9807C8B326B136E90013376F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9807C8D326B1485A0013376F /* ApiServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServer.swift; sourceTree = "<group>"; };
 		9854D61626B39ABC0093B552 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9872EF6726B76E5C006E8A98 /* ScrollNavigationViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNavigationViewTests.swift; sourceTree = "<group>"; };
+		9872EF7326B77DC2006E8A98 /* SimpleTitleDataViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTitleDataViewTests.swift; sourceTree = "<group>"; };
+		9872EF7726B782FC006E8A98 /* SimpleStackCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStackCellTests.swift; sourceTree = "<group>"; };
+		9872EF7B26B787E9006E8A98 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		98774B0126B6F042003763D1 /* CFHTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFHTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98774B0326B6F042003763D1 /* CFHTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFHTaskTests.swift; sourceTree = "<group>"; };
+		98774B0526B6F042003763D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98774B0D26B6F0BF003763D1 /* ZooPlantModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooPlantModelTests.swift; sourceTree = "<group>"; };
+		98774B1526B6FF05003763D1 /* ApiServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServerTests.swift; sourceTree = "<group>"; };
 		9890AB5A26B2883C00A13DEB /* ScrollNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNavigationView.swift; sourceTree = "<group>"; };
 		989144D126B6DEB20055258A /* StackView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StackView+Extension.swift"; sourceTree = "<group>"; };
 		989144D226B6DEB20055258A /* TableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Extension.swift"; sourceTree = "<group>"; };
@@ -71,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98774AFE26B6F042003763D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				9807C8A426B136E80013376F /* CFHTask */,
+				98774B0226B6F042003763D1 /* CFHTaskTests */,
 				9807C8A326B136E80013376F /* Products */,
 				4BEAB1EB127DCBB48CDCE6BB /* Pods */,
 				EB55E37F62195D96622C0C13 /* Frameworks */,
@@ -97,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				9807C8A226B136E80013376F /* CFHTask.app */,
+				98774B0126B6F042003763D1 /* CFHTaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +202,21 @@
 				98CB843726B20C92000A7F85 /* NSLayoutConstraintSet.swift */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		98774B0226B6F042003763D1 /* CFHTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				98774B0526B6F042003763D1 /* Info.plist */,
+				98774B0326B6F042003763D1 /* CFHTaskTests.swift */,
+				98774B0D26B6F0BF003763D1 /* ZooPlantModelTests.swift */,
+				98774B1526B6FF05003763D1 /* ApiServerTests.swift */,
+				9872EF6726B76E5C006E8A98 /* ScrollNavigationViewTests.swift */,
+				9872EF7326B77DC2006E8A98 /* SimpleTitleDataViewTests.swift */,
+				9872EF7726B782FC006E8A98 /* SimpleStackCellTests.swift */,
+				9872EF7B26B787E9006E8A98 /* HomeViewModelTests.swift */,
+			);
+			path = CFHTaskTests;
 			sourceTree = "<group>";
 		};
 		98CB841126B1F896000A7F85 /* Adapter */ = {
@@ -257,6 +307,24 @@
 			productReference = 9807C8A226B136E80013376F /* CFHTask.app */;
 			productType = "com.apple.product-type.application";
 		};
+		98774B0026B6F042003763D1 /* CFHTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98774B0A26B6F042003763D1 /* Build configuration list for PBXNativeTarget "CFHTaskTests" */;
+			buildPhases = (
+				98774AFD26B6F042003763D1 /* Sources */,
+				98774AFE26B6F042003763D1 /* Frameworks */,
+				98774AFF26B6F042003763D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98774B0726B6F042003763D1 /* PBXTargetDependency */,
+			);
+			name = CFHTaskTests;
+			productName = CFHTaskTests;
+			productReference = 98774B0126B6F042003763D1 /* CFHTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -268,6 +336,10 @@
 				TargetAttributes = {
 					9807C8A126B136E80013376F = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					98774B0026B6F042003763D1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9807C8A126B136E80013376F;
 					};
 				};
 			};
@@ -285,6 +357,7 @@
 			projectRoot = "";
 			targets = (
 				9807C8A126B136E80013376F /* CFHTask */,
+				98774B0026B6F042003763D1 /* CFHTaskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +371,13 @@
 				98CB843426B206EC000A7F85 /* SimpleTitleDataView.xib in Resources */,
 				98CB842C26B1FFFD000A7F85 /* SimpleStackCell.xib in Resources */,
 				9807C8AF26B136E90013376F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98774AFF26B6F042003763D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +451,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98774AFD26B6F042003763D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9872EF7826B782FC006E8A98 /* SimpleStackCellTests.swift in Sources */,
+				9872EF7C26B787E9006E8A98 /* HomeViewModelTests.swift in Sources */,
+				98774B0E26B6F0BF003763D1 /* ZooPlantModelTests.swift in Sources */,
+				98774B1626B6FF05003763D1 /* ApiServerTests.swift in Sources */,
+				98774B0426B6F042003763D1 /* CFHTaskTests.swift in Sources */,
+				9872EF6826B76E5C006E8A98 /* ScrollNavigationViewTests.swift in Sources */,
+				9872EF7426B77DC2006E8A98 /* SimpleTitleDataViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98774B0726B6F042003763D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9807C8A126B136E80013376F /* CFHTask */;
+			targetProxy = 98774B0626B6F042003763D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9807C8B026B136E90013376F /* LaunchScreen.storyboard */ = {
@@ -543,6 +645,46 @@
 			};
 			name = Release;
 		};
+		98774B0826B6F042003763D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFHTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fox.CFHTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFHTask.app/CFHTask";
+			};
+			name = Debug;
+		};
+		98774B0926B6F042003763D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFHTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fox.CFHTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFHTask.app/CFHTask";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,6 +702,15 @@
 			buildConfigurations = (
 				9807C8B726B136E90013376F /* Debug */,
 				9807C8B826B136E90013376F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98774B0A26B6F042003763D1 /* Build configuration list for PBXNativeTarget "CFHTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98774B0826B6F042003763D1 /* Debug */,
+				98774B0926B6F042003763D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

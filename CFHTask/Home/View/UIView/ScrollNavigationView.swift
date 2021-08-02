@@ -55,10 +55,10 @@ public class ScrollNavigationView: UIView {
         }
     }
     
-    private var viewModel: ScrollNavigationViewModel?
+    public var viewModel: ScrollNavigationViewModel?
     public var topView: UIView?
     public var bottomView: UIView?
-    private var checkValues: CheckValues {
+    public var checkValues: CheckValues {
         return CheckValues(height: viewModel?.height ?? 200)
     }
     
