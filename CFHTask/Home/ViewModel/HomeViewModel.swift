@@ -146,9 +146,9 @@ public class HomeViewModel {
 
 extension HomeViewModel: ScrollTableViewDelegate {
     private class CheckHeights {
-        /// 為傳入height的1/3
+        /// 為傳入height的 1 / 3
         public var min: CGFloat
-        /// 為傳入height的1/3*2(= / 1.5)
+        /// 為傳入height的 1 / 3 * 2 (= / 1.5)
         public var max: CGFloat
         /// 為傳入height的一半
         public var half: CGFloat

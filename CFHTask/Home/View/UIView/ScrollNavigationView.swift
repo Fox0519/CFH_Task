@@ -37,12 +37,12 @@ public class ScrollNavigationViewModel {
 }
 
 public class ScrollNavigationView: UIView {
-    private class CheckValues {
-        /// 為傳入height的1/3Height
+    public class CheckValues {
+        /// 為傳入height的 1 / 3 Height
         var separate: CGFloat
-        /// 為傳入height的1/3 *2(topView高度) / 3 Height(分三塊)
+        /// 為傳入height的 1 / 3 * 2 (topView高度) / 3 Height(分三塊)
         var topSeparate: CGFloat
-        /// 為傳入height的1/3 (bottomView高度) / 2 Height(我想要設置置中時用)
+        /// 為傳入height的 1 / 3 (bottomView高度) / 2 Height(我想要設置置中時用)
         var bottomSeparate: CGFloat
         /// 為螢幕的寬
         var screenWidth: CGFloat
