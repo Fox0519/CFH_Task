@@ -7,9 +7,10 @@
 
 import UIKit
 
-public class HomeSectionModel:ISectionModel,
-                       IHeaderModel,
-                       IFooterModel
+public class HomeSectionModel:
+    ISectionModel,
+    IHeaderModel,
+    IFooterModel
 {
     public var headerViewModel: IHeaderFooterViewModel?
     public var footerViewModel: IHeaderFooterViewModel?
